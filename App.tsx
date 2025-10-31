@@ -1,7 +1,6 @@
-
 import React, { useState, useCallback, useMemo, useRef } from 'react';
-import { Knight, Client, Party } from './types';
-import { PlusIcon, MinusIcon, TrashIcon, UsersIcon, CheckIcon, ShieldCheckIcon, UserCircleIcon, EditIcon, PowerIcon, DocumentDuplicateIcon, DocumentAddIcon } from './components/icons';
+import { Knight, Client, Party } from './types.ts';
+import { PlusIcon, MinusIcon, TrashIcon, UsersIcon, CheckIcon, ShieldCheckIcon, UserCircleIcon, EditIcon, PowerIcon, DocumentDuplicateIcon, DocumentAddIcon } from './components/icons.tsx';
 
 // Helper Components (defined outside the main App component to avoid re-creation on re-renders)
 

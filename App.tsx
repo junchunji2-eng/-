@@ -1,5 +1,4 @@
 
-
 import React, { useState, useCallback, useMemo, useRef } from 'react';
 import { Knight, Client, Party } from './types';
 import { PlusIcon, MinusIcon, TrashIcon, UsersIcon, CheckIcon, ShieldCheckIcon, UserCircleIcon, EditIcon, PowerIcon, DocumentDuplicateIcon, DocumentAddIcon } from './components/icons';

@@ -19,6 +19,6 @@ export default defineConfig(({ mode }) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
-    base: '/junchunji2-eng/', // ✅ 반드시 추가 (GitHub Pages용)
+    base: '/-/', // ✅ 반드시 추가 (GitHub Pages용)
   }
 })

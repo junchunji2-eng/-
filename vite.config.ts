@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '')
   return {
+    base: '/-/', // ✅ 리포지토리 이름이 '-'이므로 반드시 이 값
     server: {
       port: 3000,
       host: '0.0.0.0',
@@ -19,6 +20,5 @@ export default defineConfig(({ mode }) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
-    base: '/-/', // ✅ 반드시 추가 (GitHub Pages용)
   }
 })
